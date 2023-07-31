@@ -6,15 +6,14 @@ def get_choices():
   computer_choice = random.choice(options)
   choices = {"player": player_choice, "computer": computer_choice}
   return choices
-  # return player_choice
-  # return computer_choice
-choices = get_choices()
-print(choices)
+  
+def check_win(player, computer):
+    return [player, computer]
 
-food = ["pizza", "carrots", "eggs"]
-dinner = random.choice(food)
-
-
+a = 3
+b = 5
+if a == b:
+   print("yes")
 
 
 
