@@ -1,0 +1,46 @@
+# import random
+
+# def get_choices():
+#   player_choice = input("Enter a choice (rock, paper, scissors: ")
+#   options = ["rock", "paper", "scissors"]
+#   computer_choice = random.choice(options)
+#   choices = {"player": player_choice, "computer": computer_choice}
+#   return choices
+  
+# def check_win(player, computer):
+#     return [player, computer]
+
+
+# def check_win(player, computer):
+#    if player == computer:
+#       return "It's a tie!"
+
+#**************************************************************************************************
+#**************************************************************************************************
+
+
+# print("Hello, welcome to NetworkChuck Coffee!!!!!!!!!!!!!!")
+
+
+# name = input("What is your name?\n")
+
+
+# if  name == "Ben" or name == "Patricia":
+#     evil_status = input("Are you evil?\n")
+#     if evil_status == "Yes":
+#       print("You're not welcome here Ben!! Get out!")
+#       exit()
+# else:  
+#     print("Hello " + name + ", thank you so much for coming in today.\n\n\n")
+
+# # beard_length 
+
+
+#****************************************************************************
+# str1 = "Hello"
+# str2 = "World"
+# result = str1[2:]+str2[3:]*2
+# print(result)
+
+
+#****************************************************************************

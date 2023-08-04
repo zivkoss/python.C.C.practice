@@ -1,33 +1,14 @@
-import random
-
-def get_choices():
-  player_choice = input("Enter a choice (rock, paper, scissors: ")
-  options = ["rock", "paper", "scissors"]
-  computer_choice = random.choice(options)
-  choices = {"player": player_choice, "computer": computer_choice}
-  return choices
-  
-def check_win(player, computer):
-    return [player, computer]
-
-a = 3
-b = 5
-if a == b:
-   print("yes")
 
 
+# for i in range(997):
+#     print(i)
 
+def get_alphabets(startletter, stopletter, step):
+ for c in range(ord(startletter.lower()),
+ord(stopletter.lower()), step):
+  yield chr(c)
 
-
-
-
-
-
-
-
-
-
-
+print(list(get_alphabets("a", "h", 1)))           
 
 
 
