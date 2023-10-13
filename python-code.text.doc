@@ -49,3 +49,4 @@ str1 = "Python Learning"
 str2 = str1[:5]*2 + str1[:4]
 str3 = str2[:5//2]*3
 print(str3)
+
