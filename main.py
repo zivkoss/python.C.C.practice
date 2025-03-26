@@ -1,6 +1,6 @@
 
 
-# for i in range(997):
+# for i in range(997): //
 #     print(i)
 
 # def get_alphabets(startletter, stopletter, step):
