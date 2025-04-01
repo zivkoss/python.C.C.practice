@@ -9,17 +9,29 @@
 
 # # Multiplication//
 
-height = 1.79
-weigth = 74.2 # <-
-bmi = weigth / height ** 2
-print(bmi)
+# height = 1.79
+# weigth = 74.2 # <-
+# bmi = weigth / height ** 2
+# print(bmi)
 
 # ////
 
-godine = input("Koliko imas godina: ")
-godine = int(godine)
+# godine = input("Koliko imas godina: ")
+# godine = int(godine)
 
-if  godine >= 18 :
-    print("Punoljetni ste")
-else :
-    print("Maloljetni ste")
+# if  godine >= 18 :
+#     print("Punoljetni ste")
+# else :
+#     print("Maloljetni ste")
+
+# /////////////////////////////////////////////////////////////////////////////
+
+broj1 = input("Broj 1: ")
+broj2 = input("Broj 2: ")
+
+broj1 = int(broj1)
+broj2 = int(broj2)
+
+rezultat = broj1 + broj2
+
+print(rezultat)
