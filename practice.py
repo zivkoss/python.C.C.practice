@@ -26,12 +26,26 @@
 
 # /////////////////////////////////////////////////////////////////////////////
 
-broj1 = input("Broj 1: ")
-broj2 = input("Broj 2: ")
+# broj1 = input("Broj 1: ")
+# broj2 = input("Broj 2: ")
 
-broj1 = int(broj1)
-broj2 = int(broj2)
+# broj1 = int(broj1)
+# broj2 = int(broj2)
 
-rezultat = broj1 + broj2
+# rezultat = broj1 + broj2
 
-print(rezultat)
+# print(rezultat)
+
+# /////////////////////////////////////////////////////////////////
+
+cijeli_broj = 10
+negativan_broj = -5
+decimalniBroj = 3.65
+moje_ime_tekst = "Cysecor"
+moje_ime_tekst2 = 'Cysecor'
+punoljetan = True
+maloljetan = False
+
+print("Moje ime je:", moje_ime_tekst, "i ovo je cijeli broj:", cijeli_broj)
+
+print("Moje ime je: {} i ovo je cijeli broj: {}".format(moje_ime_tekst, cijeli_broj))
