@@ -15,3 +15,11 @@ bmi = weigth / height ** 2
 print(bmi)
 
 # ////
+
+godine = input("Koliko imas godina: ")
+godine = int(godine)
+
+if  godine >= 18 :
+    print("Punoljetni ste")
+else :
+    print("Maloljetni ste")
