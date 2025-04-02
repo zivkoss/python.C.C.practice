@@ -49,5 +49,5 @@ maloljetan = False
 print("Moje ime je:", moje_ime_tekst, "i ovo je cijeli broj:", cijeli_broj)
 
 # print("Moje ime je: {} i ovo je cijeli broj: {}".format(moje_ime_tekst, cijeli_broj))
-print("Moje ime je: {moje_ime_je} i ovo je cijeli broj: {cijeli_broj}")
+print("Moje ime je: {moje_ime_tekst} i ovo je cijeli broj: {cijeli_broj}")
 # /////////
