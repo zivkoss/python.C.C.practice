@@ -65,3 +65,5 @@ if broj_razmaka > 0 :
     print("Ime je potpuno")
 else :
     print("Greska - ime je nepotpuno")
+
+print(len(sifra_korisnika))    
