@@ -21,3 +21,5 @@ if broj_razmaka > 0 :
 else :
     print("Greska - ime je nepotpuno")
 
+# ////
+
