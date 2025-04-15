@@ -23,6 +23,6 @@ duzina_sifre = len(sifra_korisnika)
 if duzina_sifre > 8 :
     print("Sifra je OK")
 else :
-    print("Nije ok")
+    print("Sifra mora biti duza od 8 karaktera")
 
 # ////
