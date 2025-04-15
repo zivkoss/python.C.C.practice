@@ -11,7 +11,10 @@ razmak = ime_korisnika.find(" ")
 first_name = ime_korisnika[:razmak]
 last_name = ime_korisnika[razmak+1:]
 
-lokacija_imena = sifra_korisnika.find(first_name)
+sifra_korisnika_malim = sifra_korisnika.lower()
+first_name_malim = first_name.lower()
+
+lokacija_imena = sifra_korisnika.malim.find(first_name_malim)
 
 print(lokacija_imena)
 
