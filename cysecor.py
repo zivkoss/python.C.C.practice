@@ -24,3 +24,5 @@ if duzina_sifre > 8 :
     print("Sifra je OK")
 else :
     print("Nije ok")
+
+# //
