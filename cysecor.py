@@ -11,15 +11,12 @@ razmak = ime_korisnika.find(" ")
 first_name = ime_korisnika[:razmak]
 last_name = ime_korisnika[razmak+1:]
 
-lokacija_imena = ime_korisnika.find(first_name)
+lokacija_imena = sifra_korisnika.find(first_name)
 
-print(first_name)
-print(last_name)
+print(lokacija_imena)
 
 if broj_razmaka > 0 :
     print("Ime je potpuno")
 else :
     print("Greska - ime je nepotpuno")
-
-# /////
 
