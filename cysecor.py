@@ -20,9 +20,11 @@ else :
 
 duzina_sifre = len(sifra_korisnika)
 
+
+if lokacija_imena == -1 :
+    print("Ime ne postoji u sifri i to je dobro")
+
 if duzina_sifre > 8 :
     print("Sifra je OK")
 else :
     print("Sifra mora biti duza od 8 karaktera")
-
-# ////
