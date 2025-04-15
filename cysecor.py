@@ -25,4 +25,4 @@ if duzina_sifre > 8 :
 else :
     print("Nije ok")
 
-# ///
+# ////
