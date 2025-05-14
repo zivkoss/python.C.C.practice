@@ -17,12 +17,17 @@
 # print(str3)
 #===========================================================================================
 
-for i in range(n): 
-    for j in range(n):
-        print (' * ' , end = ' ')
-    print()    
+# for i in range(n): 
+#     for j in range(n):
+#         print (' * ' , end = ' ')
+#     print()    
 
 # //
+
+rows = 5
+for i in range(rows, 0, -1):
+    print(' ' * (rows - i) +
+          '*' * (2 * i - 1))
 
 
 
