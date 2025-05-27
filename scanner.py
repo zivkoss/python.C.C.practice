@@ -29,4 +29,4 @@ if ',' in targets:
 else:
 	scan(targets,ports)
 
-	///
+	# ///
