@@ -38,8 +38,8 @@
     # //
 
 
-for i in "pythonista":
-    print(i)
+# for i in "pythonista":
+#     print(i)
 
 
 
