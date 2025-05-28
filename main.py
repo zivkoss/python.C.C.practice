@@ -44,9 +44,9 @@
 # //
 
 cnt = 0
-while (cnt < 300):
+while (cnt < 3):
     cnt = cnt + 1
-    print("Hello Geek")
+    print("Господи помилуј!!!")
 
 
 
