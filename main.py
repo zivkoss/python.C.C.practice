@@ -43,16 +43,16 @@
 
 # //
 
-cnt = 0
-while (cnt < 3):
-    cnt = cnt + 1
-    print("Господи помилуј!!!")
+# cnt = 0
+# while (cnt < 3):
+#     cnt = cnt + 1
+#     print("Господи помилуј!!!")
 
 # //
 
 
 
-
+# /
 
 
 
