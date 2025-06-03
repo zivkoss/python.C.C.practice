@@ -13,6 +13,8 @@ last_name = ime_korisnika[razmak+1:]
 
 lokacija_imena = sifra_korisnika.lower().find(first_name)
 
+print(lokacija_imena)
+
 if broj_razmaka > 0 :
     print("Ime je potpuno")
 else :
