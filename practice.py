@@ -18,9 +18,9 @@ if broj_razmaka > 0 :
 else :
     print("Greska - ime je nepotpuno")
 
-print(len(sifra_korisnika))    
+duzina_sifre = len(sifra_korisnika)    
 
-# ////
+
 
 
 
