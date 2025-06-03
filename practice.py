@@ -1,3 +1,62 @@
+ime_korisnika = input("Svoje ime: ")
+emil_korisnika = input("Svjo email: ")
+sifra_korisnika = input("Svoja sifra: ")
+
+ime_korisnika = ime_korisnika.strip()
+broj_razmaka = ime_korisnika.count(" ")
+ime_korisnika = ime_korisnika.lower()
+ime_korisnika = ime_korisnika.title()
+
+if broj_razmaka > 0 :
+    print("Ime je potpuno")
+else :
+    print("Greska - ime je nepotpuno")
+
+print(len(sifra_korisnika))    
+
+# ////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # print ( 8 / 5);
 
 # # Addition and division
@@ -51,21 +110,3 @@
 # # print("Moje ime je: {} i ovo je cijeli broj: {}".format(moje_ime_tekst, cijeli_broj))
 # print(f"Moje ime je: {moje_ime_tekst} i ovo je cijeli broj: {cijeli_broj}")
 # # ///////////////////
-
-ime_korisnika = input("Svoje ime: ")
-emil_korisnika = input("Svjo email: ")
-sifra_korisnika = input("Svoja sifra: ")
-
-ime_korisnika = ime_korisnika.strip()
-broj_razmaka = ime_korisnika.count(" ")
-ime_korisnika = ime_korisnika.lower()
-ime_korisnika = ime_korisnika.title()
-
-if broj_razmaka > 0 :
-    print("Ime je potpuno")
-else :
-    print("Greska - ime je nepotpuno")
-
-print(len(sifra_korisnika))    
-
-# ////
