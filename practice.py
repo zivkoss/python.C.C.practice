@@ -18,7 +18,12 @@ if broj_razmaka > 0 :
 else :
     print("Greska - ime je nepotpuno")
 
-duzina_sifre = len(sifra_korisnika)    
+duzina_sifre = len(sifra_korisnika)
+
+if duzina_sifre > 8 :
+    print("Sifr je OK")
+else :
+    print("Something wrong")   
 
 
 
