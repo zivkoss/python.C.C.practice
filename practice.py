@@ -7,6 +7,10 @@ broj_razmaka = ime_korisnika.count(" ")
 ime_korisnika = ime_korisnika.lower()
 ime_korisnika = ime_korisnika.title()
 
+razmak = ime_korisnika.find(" ")
+first_name = ime_korisnika[:razmak]
+last_name = ime_korisnika[razmak+1:]
+
 if broj_razmaka > 0 :
     print("Ime je potpuno")
 else :
