@@ -27,7 +27,7 @@ else :
     print("Sifra nije dobra jer je ime u sifri") 
 
 if duzina_sifre > 8 :
-    print("Sifr je OK")
+    print("Sifra je OK")
 else :
     print("Sifra mora biti duza od 8  karaktera")   
 
