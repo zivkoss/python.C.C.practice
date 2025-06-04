@@ -38,6 +38,8 @@ if znak_at == -1 or znak_dot == -1:
 else : 
       print("email je dobar")  
 
+print(godine_korisnika)      
+
 # if lokacija_imena == -1 :
 #     if duzina_sifre > 8 :
 #         print("Sifra je OK")
