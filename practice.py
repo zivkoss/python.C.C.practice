@@ -29,8 +29,8 @@ else :
 znak_at = email_korisnika.find("@") 
 znak_dot = email_korisnika.find(".")
 
-print(znak_dot)
-print(znak_at)
+# print(znak_dot)
+# print(znak_at)
 
 if znak_at == -1 or znak_dot == -1:
       print("email nije dobar")
