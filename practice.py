@@ -29,10 +29,7 @@ duzina_sifre = len(sifra_korisnika)
 # else :
 #     print("Sifra nije dobra jer je ime u sifri") 
 
-# if duzina_sifre > 8 :
-#     print("Sifra je OK")
-# else :
-#     print("Sifra mora biti duza od 8  karaktera")   
+  
 
 
 
