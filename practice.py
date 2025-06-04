@@ -40,6 +40,11 @@ else :
 
 print(godine_korisnika.isdigit())      
 
+if godine_korisnika.isdigit() :
+      print("Godine ispravne")
+else : 
+      print("Godine nisu ispravne")
+
 # if lokacija_imena == -1 :
 #     if duzina_sifre > 8 :
 #         print("Sifra je OK")
