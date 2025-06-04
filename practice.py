@@ -1,6 +1,7 @@
 ime_korisnika = input("Svoje ime: ")
 email_korisnika = input("Svjo email: ")
 sifra_korisnika = input("Svoja sifra: ")
+godine_korisnika = input("Godine: ")
 
 ime_korisnika = ime_korisnika.strip()
 broj_razmaka = ime_korisnika.count(" ")
