@@ -1,5 +1,5 @@
 ime_korisnika = input("Svoje ime: ")
-emil_korisnika = input("Svjo email: ")
+email_korisnika = input("Svjo email: ")
 sifra_korisnika = input("Svoja sifra: ")
 
 ime_korisnika = ime_korisnika.strip()
