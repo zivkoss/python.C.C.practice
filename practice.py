@@ -38,7 +38,8 @@ if znak_at == -1 or znak_dot == -1:
 else : 
       print("email je dobar")  
 
-print(godine_korisnika.isdigit())      
+if godine_korisnika.isdigit() is not True:
+      print("Godine nisu ispravne")
 
 # if godine_korisnika.isdigit() :
 #       print("Godine ispravne")
